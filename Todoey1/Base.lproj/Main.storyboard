@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--To Do List View Controller-->
+        <!--ToDoey-->
         <scene sceneID="D9g-YD-eu2">
             <objects>
                 <tableViewController id="8D9-Mx-PTS" customClass="ToDoListViewController" customModule="Todoey1" customModuleProvider="target" sceneMemberID="viewController">
@@ -31,7 +31,7 @@
                             <outlet property="delegate" destination="8D9-Mx-PTS" id="Qih-IW-hZ5"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="ybp-pR-Wwn"/>
+                    <navigationItem key="navigationItem" title="ToDoey" id="ybp-pR-Wwn"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Pz-D0-HH5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -45,6 +45,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vOc-x8-fhx">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.21709123250000001" green="0.5192973018" blue="0.55278521780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
